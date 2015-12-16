@@ -1,4 +1,4 @@
-# MapViz-Vikranth
+# MapViz
 
 A data visualization on a map that I worked on as a side project for a friend. The data file used for this project was proprietary, so it cannot be put here on github.
 
