@@ -33,7 +33,7 @@ $(document).ready(function() {
     var topoLayer = new L.TopoJSON();
     var $tooltip = $('.country-details');
 
-    d3.tsv("Hotel_Data.tab", function(data) {
+    d3.tsv("DataFile.tab", function(data) {
         clicks = d3.nest()
             .key(
                 function(d) {
