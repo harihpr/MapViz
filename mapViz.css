@@ -1,0 +1,41 @@
+html, body, #map {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.options {
+    position: absolute;
+    top:65%;
+    left:2%;
+    width: 250px;
+    z-index:6;
+    background:rgba(0,0,0,.75);
+    color:white;
+    padding: 0.5% 1%;
+    font-size:1em;
+}
+.country-details {
+    position: absolute;
+    top:80%;
+    left:2%;
+    width: 250px;
+    z-index:6;
+    background:rgba(0,0,0,.75);
+    color:white;
+    padding: 0.5% 1%;
+    font-size:1em;
+    display:none;
+}
+.back {
+    position: absolute;
+    top:5%;
+    left:2%;
+    width: 250px;
+    z-index:6;
+    background:rgba(0,0,0,.75);
+    color:white;
+    padding: 0.5% 1%;
+    font-size:1em;
+    cursor: pointer;
+    display:none;
+}
