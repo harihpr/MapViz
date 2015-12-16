@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Map Data Viz
+        </title>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+        <link rel="stylesheet" href="map.css" />
+    </head>
+    <body>
+        <div class="back">
+            <strong>&lArr; &nbsp;&nbsp; Back to World Map</strong>
+        </div>
+        <div id="map"></div>
+        <div class="options">
+            <span><input type="radio" name="optionRadio" value="clicks"> &nbsp;&nbsp;&nbsp; <strong>Clicks</strong></span><br>
+            <span><input type="radio" name="optionRadio" value="gp"> &nbsp;&nbsp;&nbsp; <strong>GP</strong></span><br>
+            <span><input type="radio" name="optionRadio" value="mc"> &nbsp;&nbsp;&nbsp; <strong>MC</strong></span><br>
+            <span><input type="radio" name="optionRadio" value="efficiency"> &nbsp;&nbsp;&nbsp; <strong>Efficiency</strong></span><br>
+        </div>
+        <div class="country-details"></div>
+        <script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/0.5.9/chroma.min.js"></script>
+        <script type="text/javascript" src="markercluster.js"></script>
+        <script type="text/javascript" src="topojson.min.js"></script>
+        <script type="text/javascript" src="countries.js"></script>
+        <script type="text/javascript" src="map.js"></script>
+    </body>
+</html>
